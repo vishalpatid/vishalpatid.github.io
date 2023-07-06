@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <meta name="title" content="Vishal Patidar" />
+    <meta
+      name="description"
+      content="This is the personal portfolio website of VISHAL PATIDAR."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" as="image" href="hero-banner.jpg" />
+    <script
+      src="https://kit.fontawesome.com/9f5e396218.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="vishalogo.png"   alt="Portfolio" />
+        </a>
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggler
+          data-nav-toggle-btn
+          aria-label="Toggle menu"
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Resume</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Services</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">VISHAL PATIDAR</h1>
+              <p class="hero-subtitle">Creative Web Developer</p>
+              <div class="hero-banner">
+                <img
+                  src="LXDH8684.jpg"
+                  width="800"
+                  height="800"
+                  alt="VISHAL PATIDAR"
+                  class="w-100"
+                />
+              </div>
+              <p class="section-text">
+                Hi, I'm Vishal patidar and I am a creative web developer who
+                dream making the world better place by creating captivating
+                products.
+              </p>
+              <a href="vishalpatidar.pdf" class="btn has-before">
+                <span class="span">Download Resume</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service" aria-labelledby="service-label">
+          <div class="container">
+            <div class="title-wrapper">
+              <div>
+                <p class="section-subtitle">Services That I Provide.</p>
+
+                <h2 class="h2 section-title" id="service-label">Service</h2>
+              </div>
+              <p class="section-text">
+                My Objective is to secure a challenging position in a reputable
+                organization to expand my learnings, knowledge, and skills.
+                Secure a responsible career opportunity to fully utilize my
+                training and skills, while making a significant contribution to
+                the success of the company.
+              </p>
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-container service-list" data-slider-container>
+                <li class="slider-item" data-slider-list>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+
+                    <h3 class="h3 card-title">Web Developer</h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <span class="text-lg card-number">01</span>
+                  </div>
+                </li>
+                <li class="slider-item" data-slider-list>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="podium-outline"></ion-icon>
+                    </div>
+
+
+
+                    <h3 class="h3 card-title">Python Programming</h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <span class="text-lg card-number">02</span>
+                  </div>
+                </li>
+                <li class="slider-item" data-slider-list>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <i class="fa-solid fa-brain"></i>
+                    </div>
+
+
+
+                    <h3 class="h3 card-title">
+                      Android Application Development
+                    </h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <span class="text-lg card-number">03</span>
+                  </div>
+                </li>
+                <li class="slider-item" data-slider-list>
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="cloud-upload-outline"></ion-icon>
+                    </div>
+
+
+              <div class="slider-controls">
+                <button
+                  class="slider-control prev"
+                  data-slider-prev
+                  aria-label="Slide to previous item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+                <button
+                  class="slider-control next"
+                  data-slider-next
+                  aria-label="Slide to next item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section skills" aria-label="our skills">
+          <div class="container">
+            <p class="section-subtitle">I Make The Future</p>
+            <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+            <div class="skills-wrapper">
+              <div>
+                <p class="section-text">
+                  An Enthusiastic Computer Science Engineer. Posses experience
+                  with C/C++ and Python.
+                </p>
+                <p class="section-text">
+                  1+ years of Experience in Python Development
+                  Development.
+                </p>
+                <a href="#" class="btn has-before">vishupatidar272@gmail.com</a>
+              </div>
+              <div>
+                <ul class="skills-list">
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Web Development</p>
+                      <data class="progress-value" value="90">50%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Python Programming</p>
+                      <data class="progress-value" value="80">80%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="progress-wrapper">
+                      <p class="progress-label">	Basic Of Network Security</p>
+                      <data class="progress-value" value="90">55%</data>
+                    </div>
+                    <div class="progress-bg">
+                      <div class="progress" style="width: 90%"></div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio" aria-labelledby="portfolio-label">
+          <div class="container">
+            <div class="title-wrapper container">
+              <div>
+                <p class="section-subtitle" id="portfolio-label">My Works</p>
+
+                <h2 class="h2 section-title">Portfolio</h2>
+              </div>
+              <p class="section-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+            <div class="slider" data-slider>
+              <ul class="slider-container" data-slider-container>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="portfolio-1.jpg"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Lab. 001</h3>
+
+                      <p class="card-text">Website Design</p>
+                    </div>
+
+                    <a href="https://github.com/vishalpatid/steganography" class="layer-link"></a>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="cricinfo.png"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Cricinfo</h3>
+
+                      <p class="card-text">Python Development</p>
+                    </div>
+
+                    <a href="#" class="layer-link"></a>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="portfolio-3.jpg"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Joker Card</h3>
+
+                      <p class="card-text">UX Design / Web App</p>
+                    </div>
+
+                    <a href="#" class="layer-link"></a>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="portfolio-4.jpg"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Peaky Blinders</h3>
+
+                      <p class="card-text">Website / UX Design</p>
+                    </div>
+
+                    <a href="#" class="layer-link"></a>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="portfolio-5.jpg"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Design Zone</h3>
+
+                      <p class="card-text">Branding / Design</p>
+                    </div>
+
+                    <a href="#" class="layer-link"></a>
+                  </div>
+                </li>
+                <li class="slider-item">
+                  <div
+                    class="portfolio-card img-holder"
+                    style="--width: 600; --height: 600"
+                  >
+                    <img
+                      src="portfolio-6.jpg"
+                      alt="portfolio"
+                      width="600"
+                      height="600"
+                      loading="lazy"
+                      class="img-cover"
+                    />
+
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Out Zone</h3>
+
+                      <p class="card-text">UX Design / Web App</p>
+                    </div>
+
+                    <a href="#" class="layer-link"></a>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="slider-controls">
+                <button
+                  class="slider-control prev"
+                  data-slider-prev
+                  aria-label="Slide to previous item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+                <button
+                  class="slider-control next"
+                  data-slider-next
+                  aria-label="Slide to next item"
+                >
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- BLOG -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+          <div class="container">
+            <ul class="footer-list">
+              <li>
+                <p class="h4 footer-list-title">Get in touch</p>
+              </li>
+              <li>
+                <a href="mailto:vishupatidar272@gmail.com" class="footer-link"
+                  >vishupatidar272@gmail.com</a
+                >
+              </li>
+            </ul>
+            <ul class="footer-list">
+              <li>
+                <p class="h4 footer-list-title">Location</p>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Ratlam - Madhya Pradesh</a>
+              </li>
+            </ul>
+            <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/vishal.patidar.9693001/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/v_09_12_2001_p/"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/vishal-patidar-726128218"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="wa.me/919752483287" class="social-link">
+                  <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </article>
+    </main>
+
+    <!-- Javascript file -->
+    <script src="index.js"></script>
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
